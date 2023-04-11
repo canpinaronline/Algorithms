@@ -1,4 +1,4 @@
-package study.algorithms.reversestring;
+package reversestring;
 
 public class ReverseString {
 	public String FirstReverse(String str) {

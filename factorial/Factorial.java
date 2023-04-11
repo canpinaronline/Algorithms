@@ -1,4 +1,4 @@
-package study.algorithms.factorial;
+package factorial;
 
 public class Factorial {
 	

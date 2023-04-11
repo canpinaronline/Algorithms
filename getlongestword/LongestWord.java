@@ -1,4 +1,4 @@
-package study.algorithms.getlongestword;
+package getlongestword;
 
 public class LongestWord {
 	
