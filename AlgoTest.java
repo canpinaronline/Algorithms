@@ -5,18 +5,20 @@ import java.util.Scanner;
 public class AlgoTest {
 
 	public static void main(String[] args) {
-		
-		System.out.println(FirstFactorial(5));
+
+		System.out.println(FirstReverse("Test String"));
 
 	}
-	
-	public static int FirstFactorial(int number) {
-		int sum = 1;
-		for(int i=1; i<number+1;i++) {
-			sum = sum * i;
-			
+
+	public static String FirstReverse(String str) {
+
+		String newString = "";
+
+		for (int i = str.length()-1; i>=0; i--) {
+			newString += str.charAt(i);
 		}
-		return sum;
+
+		return newString;
 	}
 
 }
