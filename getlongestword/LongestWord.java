@@ -1,17 +1,6 @@
-package study.algorithms;
+package study.algorithms.getlongestword;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
-public class AlgoTest {
-
-	public static void main(String[] args) {
-		
-		System.out.println(LongestWord("Learning programming is fun."));
-		
-
-	}
-
+public class LongestWord {
 	
 	/* 
 	 * 
@@ -29,7 +18,7 @@ public class AlgoTest {
 	 *               
 	 * Returns: Programming              
 	 * */
-	public static String LongestWord(String sentence) {
+	public String LongestWord(String sentence) {
 	    
 		String[] wordArray = sentence.split(" ");
 		String longestWordInArray = "";
@@ -45,5 +34,6 @@ public class AlgoTest {
 	    
 		return longestWordInArray;
 	  }
+
 
 }
