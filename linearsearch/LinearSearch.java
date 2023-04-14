@@ -31,7 +31,7 @@ public class LinearSearch {
         }
 
         if(!valueInArray) {
-            indexWithValue = "Nothing matches.";
+            indexWithValue = "Nothing matches. ";
             System.out.print(indexWithValue);
         }
     }
