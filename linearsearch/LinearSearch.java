@@ -23,7 +23,7 @@ public class LinearSearch {
         System.out.println();
         System.out.print("Value was found in the following indexes: ");
         for(int j = 0; j < myArray.length; j++) {
-            if(myArray[j] == searchvalue) {
+            if(myArray[j] == searchValue) {
                 valueInArray = true;
                 System.out.print(j + " ");
                 indexWithValue += j + " ";

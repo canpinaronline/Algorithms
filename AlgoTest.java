@@ -1,3 +1,4 @@
+import insertionsort.InsertionSort;
 import linearsearch.LinearSearch;
 
 import java.util.ArrayList;
@@ -8,11 +9,7 @@ public class AlgoTest {
 
 	public static void main(String[] args) {
 
-		LinearSearch ls = new LinearSearch();
-		ls.linearSearch(5);
-
-
-
+		
 
 	}
 
