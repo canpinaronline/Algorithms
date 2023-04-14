@@ -2,7 +2,7 @@ package linearsearch;
 
 public class LinearSearch {
 
-    public void linearSearch(int searchvalue) {
+    public void linearSearch(int searchValue) {
         /* Declaring */
         int [] myArray = new int[10];
 
